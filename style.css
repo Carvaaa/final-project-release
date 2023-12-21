@@ -1,0 +1,262 @@
+html,
+body {
+  height: 100%;
+}
+
+.outer-wrapper {
+  background: url("../images/lisbonpc.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  font-size: 60px;
+  transform: scaleY(1.1);
+  overflow: hidden;
+  border-right: 0.15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  animation:
+    typing 1.7s steps(40, end),
+    blink-caret 0.6s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 38%;
+  }
+}
+
+body {
+  height: 100%;
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: black;
+  }
+}
+
+#abtlist {
+  list-style: none;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#abtlist li {
+  display: inline-block;
+  margin: 150px;
+  font-size: 20px;
+  font-family: 'Lucida Console', monaco, arial;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+#ptm {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-top-color: yellow;
+  border-bottom-color: yellow;
+  border-left-color: #00b000;
+  border-right-color: red;
+  margin-left: 320px;
+  transition: 0.2s;
+  transform: scale(1.0);
+}
+
+#ptm:hover,
+#ptm:focus {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+#thist {
+  text-align: left;
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 40px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.skip-to-content {
+  left: 50%;
+  position: absolute;
+  transform: translateY(-100%);
+  background: beige;
+  height: 30px;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+.skip-to-content:focus {
+  transform: translateY(0%);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 23% 77%;
+  padding-left: 5px;
+  gap: 1px;
+}
+
+.grid-item {
+  padding: 5px;
+  width: 200px;
+}
+
+#hisp {
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 5px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+}
+
+.grid-item-text {
+  padding: 5px;
+  width: 900px;
+}
+
+#ptm-right {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-top-color: yellow;
+  border-bottom-color: yellow;
+  border-left-color: #00b000;
+  border-right-color: red;
+  position: absolute;
+  right: 320px;
+  top: 1400px;
+  transition: 0.2s;
+  transform: scale(1.0);
+}
+
+#ptm-right:hover,
+#ptm-right:focus {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+#foodls {
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 15px;
+  text-align: right;
+  margin-top: 5px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+  position: absolute;
+  top: 1470px;
+  right: 475px;
+  width: 900px;
+}
+
+#cuisinet {
+  text-align: right;
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 40px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 1390px;
+  right: 500px;
+}
+
+.grid-container-right {
+  display: grid;
+  grid-template-columns: 32% 68%;
+  padding-right: 5px;
+  gap: 1px;
+}
+
+#thist2 {
+  text-align: left;
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 40px;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 1860px;
+}
+
+#ptm2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-top-color: yellow;
+  border-bottom-color: yellow;
+  border-left-color: #00b000;
+  border-right-color: red;
+  margin-left: 320px;
+  transition: 0.2s;
+  transform: scale(1.0);
+  position: absolute;
+  top: 1870px;
+  right: 1580px;
+}
+
+#ptm2:hover,
+#ptm2:focus {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+#hisp2 {
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 5px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+  position: absolute;
+  top: 1940px;
+  width: 900px;
+}

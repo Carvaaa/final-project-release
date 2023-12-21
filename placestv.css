@@ -1,0 +1,146 @@
+html,
+body {
+  height: 100%;
+}
+
+.outer-wrapper {
+  background: url("../images/algarvebeach.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  font-size: 60px;
+  transform: scaleY(1.1);
+  overflow: hidden;
+  border-right: 0.15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  animation:
+    typing 1.4s steps(40, end),
+    blink-caret 0.6s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 26%;
+  }
+}
+
+body {
+  height: 100%;
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: black;
+  }
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 150px;
+  font-size: 20px;
+  font-family: 'Lucida Console', monaco, arial;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#listitle {
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#lisdes {
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 350px;
+  margin-right: 350px;
+  line-height: 140%;
+}
+
+.skip-to-content {
+  left: 50%;
+  position: absolute;
+  transform: translateY(-100%);
+  background: beige;
+  height: 30px;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+.skip-to-content:focus {
+  transform: translateY(0%);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 5px;
+  gap: 1px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+  padding: 5px;
+  width: 200px;
+}
+
+.image {
+  width: 535px;
+  border-radius: 2%;
+}
+
+#title {
+  font-family: 'Lucida Console', monaco, arial;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 150px;
+}
