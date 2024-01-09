@@ -4,7 +4,7 @@ body {
 }
 
 .outer-wrapper {
-  background: url("../images/lisbonpc.jpg") no-repeat center center;
+  background: url("/final-project-release/images/lisbonpc.jpg") no-repeat center center;
   background-size: cover;
   height: 50%;
   display: flex;
