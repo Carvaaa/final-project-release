@@ -4,7 +4,7 @@ body {
 }
 
 .outer-wrapper {
-  background: url("../images/algarvebeach.jpg") no-repeat center center;
+  background: url("/final-project-release/images/algarvebeach.jpg") no-repeat center center;
   background-size: cover;
   height: 50%;
   display: flex;
